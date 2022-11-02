@@ -1,6 +1,6 @@
 #! /bin/bash
 
-projectFolder=~/Documents/rohr_inf
+# navigate to directory with needed files
 
 cat rawsing.csv | gcut -d, -f3-5 --complement rawsing.csv > trimsing.csv
 
