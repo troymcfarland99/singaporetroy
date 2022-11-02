@@ -5,6 +5,8 @@
 cat rawsing.csv | gcut -d, -f3-5 --complement rawsing.csv > trimsing.csv
 
 rm formatsing.csv
+# ^ deletes formatsing.csv to re-initialize
+
 for i in {3..44}
 do
 
